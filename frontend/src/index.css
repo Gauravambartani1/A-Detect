@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Define the custom variable for the navbar height */
+  --navbar-height: 68px; /* this is static, change it according to your navbar's height*/
+  --min-page-height: calc(100vh - var(--navbar-height));
+}
